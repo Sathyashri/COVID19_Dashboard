@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Data and system files
+.DS_Store
+Thumbs.db
+
+# Streamlit and Dash config
+.streamlit/
+
+# Jupyter / temporary notebooks
+*.ipynb_checkpoints/
+
+# Power BI backups or exports
+*.pbix
+*.pbit
