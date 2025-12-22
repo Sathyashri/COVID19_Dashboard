@@ -77,4 +77,4 @@ st.plotly_chart(fig_active, use_container_width=True)
 
 # --- Footer ---
 st.markdown("---")
-st.markdown("📊 **Dashboard created by Kitty** | Built with Streamlit & Plotly")
+st.markdown("📊 **Dashboard** | Built with Streamlit & Plotly")
