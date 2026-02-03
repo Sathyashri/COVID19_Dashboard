@@ -29,7 +29,43 @@ The project also includes an older Dash-based version for comparison and learnin
 
 ## Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone https://github.com/Sathyashri/COVID19_Dashboard.git
 cd COVID19_Dashboard
+
+### 2️ Create & Activate Virtual Environment (Optional but Recommended)
+```bash
+python -m venv venv
+venv\Scripts\activate   # Windows
+# source venv/bin/activate  # macOS/Linux
+
+### 3️ Install Dependencies
+```bash
+pip install -r requirements.txt
+
+### 4️ Run the Streamlit App
+streamlit run app.py
+
+
+The dashboard will open in your browser at:
+
+http://localhost:8501
+
+##  Data Source
+
+Publicly available COVID-19 datasets
+
+Data is processed and visualized for analytical and educational purposes
+
+##  Future Enhancements
+
+Add real-time data updates via APIs
+
+Include vaccination and testing statistics
+
+Deploy dashboard using Streamlit Cloud
+
+Add trend forecasting using time-series models
+
+Improve insights using automated analytics
